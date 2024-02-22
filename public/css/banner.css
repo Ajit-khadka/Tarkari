@@ -1,0 +1,122 @@
+.banner-container{
+    height: 60vh;   
+    background-color: var(--light-green); 
+    margin-top: 50px;
+}
+
+.banner-title{
+    font-size: 3vw;
+    font-weight: 500;
+}
+
+.banner-desc{
+    font-size: 2vw;
+    font-weight: 400;
+}
+
+.banner-desc1{
+    font-weight: 600;
+    color: var(--dark-green);
+}
+
+.banner-btn{
+    border: none;
+    background-color: var(--dark-green);
+    color: white;
+    border-radius: 6px;
+
+}
+
+.home-banner{
+    width: 100%;
+}
+
+.bannerimage-container{
+    transform: rotate(-14deg);
+}
+
+.banner-image{
+    height: 25vw;
+    width: 38vw;
+    transform: scaleX(-1);
+
+}
+
+@media (max-width: 1024px) {
+
+    .banner-container{
+        margin-top: 0px;
+    }
+
+    .banner-title{
+        font-size: 34px;
+        font-weight: 500;
+    }
+
+
+    .banner-desc{
+        font-size: 24px;
+        font-weight: 400;
+    }
+
+    .bannerdesc-wrapper{
+        flex-direction: column-reverse;
+    }
+
+
+    .bannerimage-container{
+        padding: 0 5%;
+    }
+
+    .banner-image{
+        height: 320px;
+        width: 500px;
+    }
+
+    .bannerdesc-container{
+        padding: 2% 5%;
+        z-index: 0;
+    }
+
+    .banner-container{
+        height: auto;   
+        padding: 4% 0;
+        background-color: var(--light-green); 
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    .banner-image{
+        height: 40vw;
+        width: 65vw;
+    }
+
+    .banner-title{
+        font-size: 5vw;
+        font-weight: 500;
+    }
+    
+    .banner-desc{
+        font-size: 4vw;
+    }
+}
+
+
+@media (max-width: 426px) {
+
+    .banner-image{
+        height: 50vw;
+        width: 75vw;
+    }
+
+    .banner-title{
+        font-size: 20px;
+        font-weight: 500;
+    }
+    
+    .banner-desc{
+        font-size: 16px;
+    }
+}

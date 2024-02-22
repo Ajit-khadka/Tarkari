@@ -1,0 +1,196 @@
+.popularproducts-wrapper{
+    font-family: "Poppins", sans-serif;
+}
+
+.popularproducts-title{
+    font-weight: 500;
+    font-size: 35px;
+}
+
+.circlebtn-left, .circlebtn-right{
+    height: 34px;
+    width: 34px;
+    border: none;
+    background-color: #f2f3f4;
+    z-index: 1;
+    top: 130px;
+}
+
+.circlebtn-left{
+    left: 20px;
+}
+
+.circlebtn-right{
+    right: 30px;
+}
+
+.product-links li a{
+    text-decoration: none;
+    color: var(--black);
+    font-weight: 500;
+}
+
+.products-wrapper{
+    width: 100%;
+    overflow-x: scroll;
+    gap: 40px;
+}
+
+.zindex{
+    z-index: 0;
+}
+
+.product-links .popular-link{
+    color: var(--dark-green);
+}
+
+.product-links{
+    gap: 30px;
+}
+
+/* .veg-image{
+    transform: scaleX(-1);
+    height: 167px;
+    width: 190px;
+    object-fit: cover;
+  
+} */
+
+.veg-image{
+    transform: scaleX(-1);
+    height: 167px;
+    width: 190px;
+    object-fit: cover;
+  
+}
+
+.veg-desc{
+    padding: 0 20px;
+}
+
+.popularproduct-btn{
+    width: 255px;
+    background-color: var(--dark-green);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 12px;
+}
+
+.product-container{
+    border: 1px solid var(--underline);
+    border-radius: 10px;
+    height: 350px;
+    width: 300px;
+}
+
+.product-category{
+    font-size: 10px;
+    color: var(--grey)
+}
+
+.product-price{
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--dark-green);
+}
+
+/* slider */
+
+.owl-carousel .item {
+    margin-right: 200px; /* Adjust this value to increase or decrease the gap */
+}
+
+
+
+@media (max-width: 768px) {
+    
+    .popularproducts-title{
+        font-size: 20px;
+    }
+
+    .product-links{
+        gap: 15px;
+    }
+
+    .product-links li a{
+        font-size: 14px;
+        font-weight: 500;
+    }
+
+    .circlebtn-left{
+        left: 0px;
+    }
+    
+    .circlebtn-right{
+        right: 0px;
+    }
+
+
+}
+
+@media (max-width: 500px) {
+
+    .popularproducts-header{
+        flex-direction: column;
+    }
+}
+
+
+@media (max-width: 426px) {
+
+    .popularproduct-btn{
+        width: 250px;
+    }
+
+    .popularproduct-wrapper{
+        padding: 0 10vw;
+    }
+
+    .product-container{
+        width: 295px;
+    }
+
+    .popularproducts-header{
+        padding: 0 2%;
+    }
+}
+
+@media (max-width: 376px) {
+    
+    .popularproduct-wrapper{
+        padding: 0 5vw;
+    }
+
+}
+
+
+
+@media (max-width: 320px) {
+    
+    .popularproduct-wrapper{
+        padding: 0;
+    }
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

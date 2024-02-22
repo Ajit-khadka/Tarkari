@@ -1,0 +1,94 @@
+.ad-btn{
+    width: 107px;
+    height: 29px;
+    border: none;
+    border-radius: 5px;
+    background-color: var(--dark-green);
+    color: white;
+    font-size: 12px;
+}
+
+.advertise-container{
+    background: var(--light-green);
+    height: 230px;
+    border-radius: 10px;
+    width: 48.6%;
+    padding: 0 4%;
+}
+
+.advertise-wrapper{
+    gap: 34px;
+
+}
+
+.advertise-title{
+    font-size: 25px;
+    font-weight: 500;
+    width:  220px;
+    
+}
+
+.advertise-image{
+    height: 12vw;
+    width: 16vw;
+    object-fit: cover;
+}
+
+.advertise-image1{
+    height: 12vw;
+    width: 18vw;
+    object-fit: cover;
+}
+
+/* media query */
+
+@media (max-width: 1300px) {
+    
+    .advertise-container{
+        padding: 0 2%;
+
+    }
+}
+
+@media (max-width: 1024px) {
+
+    .advertise-image{
+        height: 168px;
+        width: 220px;
+    }
+    
+    .advertise-image1{
+        height: 140px;
+        width: 270px;
+
+    }
+
+    .advertise-wrapper{
+        gap: 28px;
+    
+    }
+
+    .advertise-wrapper{
+        flex-wrap: wrap;
+    }
+
+    .advertise-container{
+        width: 100%;
+        padding: 0 4%;
+    }
+    
+    .advertise-title{
+        font-size: 25px;
+        font-weight: 500;
+        width:  100%;   
+    }
+}
+
+@media (max-width: 590px) {
+    .advertise-container{
+        flex-direction: column-reverse;
+        height: 100%;
+        padding: 5% 4%;
+    }
+}
+
