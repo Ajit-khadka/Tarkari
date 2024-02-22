@@ -25,6 +25,7 @@
     <link rel="stylesheet" href="{{ asset('css/footer.css') }}" />
     <link rel="stylesheet" href="{{ asset('css/sort.css') }}" />
     <link rel="stylesheet" href="{{ asset('css/sortByProducts.css') }}" />
+    <link rel="stylesheet" href="{{ asset('css/productInfo.css') }}" />
 
     {{-- jquery --}}
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
@@ -51,14 +52,14 @@
         integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
-
+    
     {{-- Sliders --}}
-    <script src="{{ asset('js/sliders.js') }}"></script>
-
+    <script src="{{ asset('js/sliders.js')  }}" ></script> 
+    
     {{-- dual range --}}
-    <script src="{{ asset('js/dualRange.js') }}"></script>
+    <script src="{{ asset('js/dualRange.js')  }}" ></script>    
 
-    {{-- sidenav --}}
+    {{-- side --}}
     <script type="text/javascript">
         function openNav() {
             document.querySelector('.sidenav').classList.toggle('sidenav-intro');
@@ -68,7 +69,6 @@
             document.querySelector('.sidenav').classList.remove('sidenav-intro');
         }
     </script>
-
 </body>
 
 </html>

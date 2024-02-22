@@ -1,4 +1,4 @@
-// main range
+//desktop range
 
 function controlFromInput(fromSlider, fromInput, toInput, controlSlider) {
     const [from, to] = getParsed(fromInput, toInput);
@@ -88,12 +88,11 @@ toSlider.oninput = () => controlToSlider(fromSlider, toSlider, toInput);
 fromInput.oninput = () => controlFromInput(fromSlider, fromInput, toInput, toSlider);
 toInput.oninput = () => controlToInput(toSlider, fromInput, toInput, toSlider);
 
-
-//modal range
+//modal dual range
 
 function controlFromInput(fromSliderModal, fromInputModal, toInputModal, controlSlider) {
-    const [from, to] = getParsed(fromInputModal, toInput);
-    fillSlider(fromInputModal, toInput, '#C6C6C6', '#25daa5', controlSlider);
+    const [from, to] = getParsed(fromInputModal, toInputModal);
+    fillSlider(fromInputModal, toInputModal, '#C6C6C6', '#25daa5', controlSlider);
     if (from > to) {
         fromSliderModal.value = to;
         fromInputModal.value = to;
@@ -102,7 +101,7 @@ function controlFromInput(fromSliderModal, fromInputModal, toInputModal, control
     }
 }
 
-function controlToInput(toSliderModal, fromInputModal, toInputModal, controlSlider) {
+function controlToInputModal(toSliderModal, fromInputModal, toInputModal, controlSlider) {
     const [from, to] = getParsed(fromInputModal, toInputModal);
     fillSlider(fromInputModal, toInputModal, '#C6C6C6', '#25daa5', controlSlider);
     setToggleAccessible(toInputModal);
@@ -178,4 +177,3 @@ fromSliderModal.oninput = () => controlFromSliderModal(fromSliderModal, toSlider
 toSliderModal.oninput = () => controlToSliderModal(fromSliderModal, toSliderModal, toInputModal);
 fromInputModal.oninput = () => controlFromInputModal(fromSliderModal, fromInputModal, toInputModal, toSliderModal);
 toInputModal.oninput = () => controlToInputModal(toSliderModal, fromInputModal, toInputModal, toSliderModal);
-

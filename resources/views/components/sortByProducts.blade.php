@@ -18,7 +18,7 @@
                 <div class="position-relative zindex">
                     <div class="range_container">
                         <div class="sliders_control">
-                            <input id="fromSlider" type="range" value="0" min="0" max="2000" />
+                            <input id="fromSlider" type="range" value="10" min="0" max="2000" />
                             <input id="toSlider" type="range" value="2000" min="0" max="2000" />
                         </div>
                         <div class="form_control">
@@ -40,27 +40,27 @@
 
                 <span class="price-title">Condition</span>
                 <br>
-                <input id="freshmodal" type="checkbox" name="fresh" value="Fresh">
-                <label class="pricelabel" for="freshmodal">Fresh (89)</label>
+                <input id="fresh" type="checkbox" name="fresh" value="Fresh">
+                <label class="pricelabel" for="fresh">Fresh (89)</label>
                 <br>
-                <input id="forzenmodal" type="checkbox" name="forzen" value="Forzen">
-                <label class="pricelabel" for="forzenmodal">Frozen (69)</label>
+                <input id="forzen" type="checkbox" name="forzen" value="Forzen">
+                <label class="pricelabel" for="forzen">Frozen (69)</label>
                 <br>
-                <input id="driedmodal" type="checkbox" name="dried" value="Dried">
-                <label class="pricelabel" for="driedmodal">Dried (49)</label>
+                <input id="dried" type="checkbox" name="dried" value="Dried">
+                <label class="pricelabel" for="dried">Dried (49)</label>
 
                 <br>
 
                 <span class="price-title">Types</span>
                 <br>
-                <input id="leafymodal" type="checkbox" name="leafy" value="Leafy">
-                <label class="pricelabel" for="leafymodal">Leafy (1506)</label>
+                <input id="leafy" type="checkbox" name="leafy" value="Leafy">
+                <label class="pricelabel" for="leafy">Leafy (1506)</label>
                 <br>
-                <input id="Cruiferousmodal" type="checkbox" name="Cruiferous" value="Cruiferous">
-                <label class="pricelabel" for="Cruiferousmodal">Cruiferous (48)</label>
+                <input id="Cruiferous" type="checkbox" name="Cruiferous" value="Cruiferous">
+                <label class="pricelabel" for="Cruiferous">Cruiferous (48)</label>
                 <br>
-                <input id="rootmodal" type="checkbox" name="root" value="Root">
-                <label class="pricelabel" for="rootmodal">Root (45)</label>
+                <input id="root" type="checkbox" name="root" value="Root">
+                <label class="pricelabel" for="root">Root (45)</label>
 
                 <br>
 
@@ -94,7 +94,7 @@
 
     </article>
     <article>
-        <section class="sortbtn-container w-100">
+        <section class="sortbtn-container w-100border border-danger">
             <div class=" d-flex" style="gap: 10px">
                 <!-- filter button -->
                 <button type="button" class="sortbtn-icons" data-bs-toggle="modal"
@@ -121,7 +121,7 @@
                                     <div class="position-relative zindex">
                                         <div class="range_container">
                                             <div class="sliders_control">
-                                                <input id="fromSliderModal" type="range" value="0"
+                                                <input id="fromSliderModal" type="range" value="10"
                                                     min="0" max="2000" />
                                                 <input id="toSliderModal" type="range" value="2000"
                                                     min="0" max="2000" />
@@ -149,27 +149,28 @@
 
                                     <span class="price-title">Condition</span>
                                     <br>
-                                    <input id="fresh" type="checkbox" name="fresh" value="Fresh">
-                                    <label class="pricelabel" for="fresh">Fresh (89)</label>
+                                    <input id="freshmodal" type="checkbox" name="fresh" value="Fresh">
+                                    <label class="pricelabel" for="freshmodal">Fresh (89)</label>
                                     <br>
-                                    <input id="forzen" type="checkbox" name="forzen" value="Forzen">
-                                    <label class="pricelabel" for="forzen">Frozen (69)</label>
+                                    <input id="forzenModal" type="checkbox" name="forzen" value="Forzen">
+                                    <label class="pricelabel" for="forzenModal">Frozen (69)</label>
                                     <br>
-                                    <input id="dried" type="checkbox" name="dried" value="Dried">
-                                    <label class="pricelabel" for="dried">Dried (49)</label>
+                                    <input id="driedModal" type="checkbox" name="dried" value="Dried">
+                                    <label class="pricelabel" for="driedModal">Dried (49)</label>
 
                                     <br>
 
                                     <span class="price-title">Types</span>
                                     <br>
-                                    <input id="leafy" type="checkbox" name="leafy" value="Leafy">
-                                    <label class="pricelabel" for="leafy">Leafy (1506)</label>
+                                    <input id="leafyModal" type="checkbox" name="leafy" value="Leafy">
+                                    <label class="pricelabel" for="leafyModal">Leafy (1506)</label>
                                     <br>
-                                    <input id="Cruiferous" type="checkbox" name="Cruiferous" value="Cruiferous">
-                                    <label class="pricelabel" for="Cruiferous">Cruiferous (48)</label>
+                                    <input id="CruiferousModal" type="checkbox" name="Cruiferous"
+                                        value="Cruiferous">
+                                    <label class="pricelabel" for="CruiferousModal">Cruiferous (48)</label>
                                     <br>
-                                    <input id="root" type="checkbox" name="root" value="Root">
-                                    <label class="pricelabel" for="root">Root (45)</label>
+                                    <input id="rootModal" type="checkbox" name="root" value="Root">
+                                    <label class="pricelabel" for="rootModal">Root (45)</label>
 
                                     <br>
 
