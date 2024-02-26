@@ -198,6 +198,11 @@ body {
 }
 
 @media (max-width: 768px) {
+  
+  .page-route {
+    font-size: 14px;
+  }
+
   .shortlink-container {
     display: none;
   }
@@ -235,7 +240,7 @@ body {
   }
 }
 
-@media (max-width: 426px) {
+@media (max-width: 429px) {
   /* newsletter */
   .newsletter-wrapper {
     height: 40vh;

@@ -135,3 +135,34 @@
                 }
             }
         })
+
+        //product info
+        const prevIconProductInfo =
+        '<button class="productInfobtn-left position-absolute d-flex justify-content-center align-items-center rounded-circle"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" style="fill: #716D6D;transform: ;msFilter:;"><path d="M12.707 17.293 8.414 13H18v-2H8.414l4.293-4.293-1.414-1.414L4.586 12l6.707 6.707z"></path></svg></button>';
+
+        const nextIconProductInfo =
+        '<button class="productInfobtn-right position-absolute d-flex justify-content-center align-items-center rounded-circle"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" style="fill: #716D6D;transform: ;msFilter:;"><path d="m11.293 17.293 1.414 1.414L19.414 12l-6.707-6.707-1.414 1.414L15.586 11H6v2h9.586z"></path></svg></button>';
+
+        $('#owl-productInfo').owlCarousel({
+            loop: true,
+            margin: 30,
+            dots: false,
+            loop: true,
+            nav: true,
+            navText: [prevIconProductInfo, nextIconProductInfo],
+            responsive:{
+                0:{
+                    items:3,
+                    margin: 0, 
+                },
+                375:{
+                    items:3,
+                },
+                600:{
+                    items:3,
+                },
+                1000:{
+                    items:3,
+                }
+            }
+        })

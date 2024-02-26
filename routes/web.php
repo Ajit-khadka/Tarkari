@@ -28,3 +28,11 @@ Route::get('/store', function () {
 Route::get('/product-info', function () {
     return view('productInfo');
 })->name('productInfo');
+
+Route::get('/aboutUs', function () {
+    return view('aboutUs');
+})->name('aboutUs');
+
+Route::get('/contactUs', function () {
+    return view('contactUs');
+})->name('contactUs');

@@ -26,6 +26,8 @@
     <link rel="stylesheet" href="{{ asset('css/sort.css') }}" />
     <link rel="stylesheet" href="{{ asset('css/sortByProducts.css') }}" />
     <link rel="stylesheet" href="{{ asset('css/productInfo.css') }}" />
+    <link rel="stylesheet" href="{{ asset('css/aboutUs.css') }}" />
+    <link rel="stylesheet" href="{{ asset('css/contactUs.css') }}" />
 
     {{-- jquery --}}
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
@@ -52,15 +54,16 @@
         integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
-    
-    {{-- Sliders --}}
-    <script src="{{ asset('js/sliders.js')  }}" ></script> 
-    
-    {{-- dual range --}}
-    <script src="{{ asset('js/dualRange.js')  }}" ></script>    
 
-    {{-- side --}}
+    {{-- Sliders --}}
+    <script src="{{ asset('js/sliders.js') }}"></script>
+
+    {{-- dual range --}}
+    <script src="{{ asset('js/dualRange.js') }}"></script>
+
+
     <script type="text/javascript">
+        // sidenav
         function openNav() {
             document.querySelector('.sidenav').classList.toggle('sidenav-intro');
         }
@@ -68,7 +71,21 @@
         function closeNav() {
             document.querySelector('.sidenav').classList.remove('sidenav-intro');
         }
+
+
+        // custom arrow input product info page
+        $('.btn-minus').on('click', function(e) {
+            var input = $(e.target).closest('.form-type-number').find('input');
+            input[0]['stepDown']();
+        });
+        $('.btn-plus').on('click', function(e) {
+            var input = $(e.target).closest('.form-type-number').find('input');
+            input[0]['stepUp']();
+        });
     </script>
+
+
+
 </body>
 
 </html>

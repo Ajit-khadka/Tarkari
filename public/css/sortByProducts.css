@@ -16,6 +16,13 @@
   justify-content: space-between;
 }
 
+/* Adjust for browsers supporting column-gap */
+@supports (column-gap: 1vw) {
+  .sortby-products  {
+    column-gap: 15px; /* Adjusted value for browsers supporting column-gap */
+  }
+}
+
 .sortByProducts-container {
   gap: 40px;
   display: flex;

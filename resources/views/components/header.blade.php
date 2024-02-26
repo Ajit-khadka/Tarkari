@@ -36,8 +36,10 @@
                                 </ul>
                             </div>
                         </li>
-                        <li><a href="#" class="{{ request()->is('Aboutus') ? 'active' : '' }}">About Us</a></li>
-                        <li><a href="#"class="{{ request()->is('Contactus') ? 'active' : '' }}">Contact Us</a>
+                        <li><a href="{{ route('aboutUs') }}"
+                                class="{{ request()->is('aboutUs') ? 'active' : '' }}">About Us</a></li>
+                        <li><a href="{{ route('contactUs') }}"class="{{ request()->is('contactUs') ? 'active' : '' }}">Contact
+                                Us</a>
                         </li>
                     </ul>
                 </nav>
@@ -184,11 +186,11 @@
                         </div>
                     </div>
                 </li>
-                <li><a class="sidenav-btn" href="Aboutus"
+                <li><a class="sidenav-btn" href="{{ route('aboutUs') }}"
                         class="{{ request()->is('Aboutus') ? 'active' : '' }}">About
                         Us</a></li>
-                <li><a class="sidenav-btn"
-                        href="Contactus"class="{{ request()->is('Contactus') ? 'active' : '' }}">Contact
+                <li><a class="sidenav-btn" href="{{ route('contactUs') }}"
+                        class="{{ request()->is('contactUs') ? 'active' : '' }}">Contact
                         Us</a></li>
                 <li>
                     <div class="accordion dropdownsidenav-wrapper" id="accordionPanelsStayOpenExample">
