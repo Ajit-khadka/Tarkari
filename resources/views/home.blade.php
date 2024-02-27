@@ -10,10 +10,10 @@
             <p class="popularproducts-title">Popular Products</p>
             <div class="d-flex align-items-center">
                 <ul class="product-links list-inline d-flex">
-                    <li><a class="popular-link" href="#">All</a></li>
-                    <li><a href="#">Vegetables</a></li>
-                    <li><a href="#">Fruits</a></li>
-                    <li><a href="#">Bakery</a></li>
+                    <li><a class="popular-link popularproduct-category" href="#">All</a></li>
+                    <li><a class="popularproduct-category" href="#">Vegetables</a></li>
+                    <li><a class="popularproduct-category" href="#">Fruits</a></li>
+                    <li><a class="popularproduct-category" href="#">Bakery</a></li>
                 </ul>
             </div>
         </section>
@@ -29,10 +29,10 @@
             <p class="popularproducts-title">Featured Products</p>
             <div class="d-flex align-items-center">
                 <ul class="product-links list-inline d-flex">
-                    <li><a class="popular-link" href="#">All</a></li>
-                    <li><a href="#">Vegetables</a></li>
-                    <li><a href="#">Fruits</a></li>
-                    <li><a href="#">Bakery</a></li>
+                    <li><a class="popular-link popularproduct-category" href="#">All</a></li>
+                    <li><a class="popularproduct-category" href="#">Vegetables</a></li>
+                    <li><a class="popularproduct-category" href="#">Fruits</a></li>
+                    <li><a class="popularproduct-category" href="#">Bakery</a></li>
                 </ul>
             </div>
         </section>

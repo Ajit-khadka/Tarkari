@@ -44,8 +44,27 @@
 
             <section class="productInfo-container ">
                 <div class="productInfoImage-wrapper ">
-                    <div class="productInfoImage-container">
-                        <img class="productInfo-bigImage" src="{{ asset('images/home-leaf.png') }}" alt="product Image" />
+                    <div class="productInfoImage-container zindex">
+                        <div id="owl-productImage" class="owl-carousel owl-theme ">
+                            <div class="item productimage-item">
+                                <img class="productInfo-bigImage" src="{{ asset('images/home-leaf.png') }}"
+                                    alt="product Image" />
+                            </div>
+                            <div class="item productimage-item ">
+                                <img class="productInfo-bigImage" src="{{ asset('images/home-leaf.png') }}"
+                                    alt="product Image" />
+                            </div>
+                            <div class="item productimage-item ">
+                                <img class="productInfo-bigImage" src="{{ asset('images/home-leaf.png') }}"
+                                    alt="product Image" />
+                            </div>
+                            <div class="item productimage-item ">
+                                <img class="productInfo-bigImage" src="{{ asset('images/home-leaf.png') }}"
+                                    alt="product Image" />
+                            </div>
+
+                        </div>
+
                     </div>
                     <div id="owl-productInfo" class="owl-carousel owl-theme">
                         <div class="item productInfo-sliderContainer">
@@ -112,8 +131,8 @@
                     <p class="productInfo-moreinfo mt-3">Size/Weight: 1kg</p>
                     <div class="productInfo-order">
                         <div class="form-type-number">
-                            <input class="productInfo-quantity" value="1" id="quantity" max="100" min="1"
-                                name="quantity" type="number" />
+                            <input class="productInfo-quantity" value="1" id="quantity" max="100"
+                                min="1" name="quantity" type="number" />
                             <div class="btn-minus button"> <svg xmlns="http://www.w3.org/2000/svg" width="24"
                                     height="24" viewBox="0 0 24 24" style="fill: #08bc3f;transform: ;msFilter:;">
                                     <path d="M16.293 9.293 12 13.586 7.707 9.293l-1.414 1.414L12 16.414l5.707-5.707z">

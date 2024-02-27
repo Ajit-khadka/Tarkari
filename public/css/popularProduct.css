@@ -45,6 +45,10 @@
   color: var(--dark-green);
 }
 
+.popularproduct-category:hover {
+  color: var(--dark-green);
+}
+
 .product-links {
   gap: 30px;
 }

@@ -85,6 +85,7 @@ body {
   background-color: var(--dark-green);
   color: white;
   padding: 2% 0;
+  flex-direction: column;
 }
 
 .testimonials-title {
@@ -114,32 +115,25 @@ body {
   border-radius: 50%;
 }
 
-.imagecircle1 {
+/* .imagecircle1 {
   height: 130px;
   width: 130px;
   background: var(--underline);
   border-radius: 50%;
-}
+} */
 
 .imagecircle-container {
   gap: 50px;
 }
 
-.testbtn-left,
-.testbtn-right {
-  height: 34px;
-  width: 34px;
-  border: none;
-  background-color: #f2f3f4;
-  top: 35vh;
+#owl-testcircle {
+  width: 420px;
+  height: 120px;
 }
 
-.testbtn-left {
-  left: 150px;
-}
-
-.testbtn-right {
-  right: 150px;
+.circle-height {
+  height: 120px;
+  margin-top: 12px;
 }
 
 .testbtn-left,
@@ -148,7 +142,7 @@ body {
   width: 34px;
   border: none;
   background-color: #f2f3f4;
-  top: 35vh;
+  top: 15vh;
 }
 
 .testbtn-left {
@@ -168,6 +162,10 @@ body {
 @media (max-width: 1024px) {
   .all-padding {
     padding: 0 4%;
+  }
+
+  .testimonials-wrapper {
+    padding: 5% 5%;
   }
 
   /* newsletter */
@@ -198,7 +196,6 @@ body {
 }
 
 @media (max-width: 768px) {
-  
   .page-route {
     font-size: 14px;
   }
@@ -225,18 +222,30 @@ body {
     font-size: 16px;
   }
 
+  .testbtn-left {
+    left: 10px;
+  }
+
+  .testbtn-right {
+    right: 10px;
+  }
+
   .imagecircle {
     height: 80px;
     width: 80px;
   }
 
-  .imagecircle1 {
+  /* .imagecircle1 {
     height: 90px;
     width: 90px;
-  }
+  } */
 
   .imagecircle-container {
     gap: 20px;
+  }
+
+  #owl-testcircle {
+    width: 300px;
   }
 }
 
@@ -267,18 +276,23 @@ body {
 
   /* testimonials */
 
-  .imagecircle {
-    height: 60px;
-    width: 60px;
+  #owl-testcircle {
+    width: 300px;
   }
 
-  .imagecircle1 {
+  .imagecircle {
     height: 80px;
     width: 80px;
   }
 
+  /* .imagecircle1 {
+    height: 80px;
+    width: 80px;
+  } */
+
   .imagecircle-container {
     gap: 20px;
+    width: 100px;
   }
 
   .testbtn-left {
@@ -296,4 +310,8 @@ body {
   .testimonials-wrapper {
     padding: 10% 5%;
   }
+}
+
+.owl-carousel .owl-item.active.center {
+  transform: scale(1.2); /* Scale active and centered items */
 }
