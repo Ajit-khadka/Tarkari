@@ -106,9 +106,9 @@
                                         </path>
                                     </svg></span></button>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" style="width: 208px" href="#">Vegetables</a></li>
-                                <li><a class="dropdown-item" href="#">Fruits</a></li>
-                                <li><a class="dropdown-item" href="#">Others</a></li>
+                                <li><a class="dropdown-item header-dropdown" style="width: 208px" href="#">Vegetables</a></li>
+                                <li><a class="dropdown-item header-dropdown" href="#">Fruits</a></li>
+                                <li><a class="dropdown-item header-dropdown" href="#">Others</a></li>
                             </ul>
                         </div>
                     </div>
@@ -124,7 +124,7 @@
                     </div>
                     <div class="phoneno-wrapper">
                         <div class="phoneno-container d-flex align-items-center">
-                            <span">Call Us: </span><span class="phone-no ms-1"> 01 4288989</span>
+                            <span">Call Us: </span><span class="phone-no ms-1"> 01 4000000</span>
                         </div>
                     </div>
                 </div>

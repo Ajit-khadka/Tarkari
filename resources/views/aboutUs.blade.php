@@ -123,8 +123,8 @@
 
         <div class="ceo-wrapper">
             <img class="ceo-image" src="{{ asset('images/person.jpeg') }}" alt="Ceo image" />
-            <div class="ceo-container">
-                <span class="ceo-name">Lokesh Adhikari</span><br>
+            <div class="ceo-container text-center">
+                <span class="ceo-name">Ajit Khadka</span><br>
                 <span class="ceo-title">CEO</span>
                 <div class="team-icon text-center">
                     <a class="ceo-icon-links me-2">
@@ -171,7 +171,7 @@
         <div class="ceo-wrapper">
             <img class="ceo-image " src="{{ asset('images/person.jpeg') }}" alt="Ceo image" />
             <div class="ceo-container text-center">
-                <span class="ceo-name">Lokesh Adhikari</span><br>
+                <span class="ceo-name ">Ajit Khadka</span><br>
                 <span class="ceo-title">Executive Manager</span>
                 <div class="team-icon text-center">
                     <a class="ceo-icon-links me-2">

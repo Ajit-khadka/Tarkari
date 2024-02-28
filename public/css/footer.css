@@ -1,124 +1,134 @@
-.footer-wrapper, .copyright-container{
-    background-color: #1F1D1D;
-    color: white;    
+.footer-wrapper,
+.copyright-container {
+  background-color: #1f1d1d;
+  color: white;
 }
 
-.footer{
-    flex-wrap: wrap;
-    gap: 20px;
+.footer {
+  flex-wrap: wrap;
+  gap: 20px;
 }
 
-.footerlink-container{
-    width: 280px;
+.footerlink-container {
+  width: 280px;
 }
 
-.footer-line{
-    width: 100%;
-    height: 1px;
-    background-color: var(--grey);
+.footer-line {
+  width: 100%;
+  height: 1px;
+  background-color: var(--grey);
 }
 
-.name-footer{
-    color: #FFD90B;
+.name-footer {
+  color: #ffd90b;
 }
 
-.footer-links li a{
-    text-decoration: none; 
-    color: white; 
+.footer-links li a {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+}
+
+.footer-sociallink {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.footer-sociallink:hover {
+  opacity: 60%;
+}
+
+.footer-title {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.footer-links li {
+  margin-top: 20px;
+}
+
+.aboutcompany-footer {
+  width: 280px;
+}
+
+.payment-container img {
+  margin-right: 5px;
+}
+
+.footer-desc {
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.appstore {
+  height: 27px;
+  width: 77px;
+}
+
+.googleplay {
+  width: 93px;
+  height: 27px;
+}
+
+.visa {
+  width: 59px;
+  height: 21px;
+}
+
+.mastercard {
+  width: 33px;
+  height: 19px;
+}
+
+.fonepay {
+  width: 66px;
+  height: 20px;
+}
+
+.subscribe-input {
+  width: 280px;
+  padding: 10px 10px;
+  border-radius: 5px;
+  border: none;
+  padding-left: 20px;
+  /* z-index: -1; */
+}
+
+.subscribe-btn {
+  top: 0;
+  right: 0;
+  padding: 10px 20px;
+  background-color: var(--black);
+  color: white;
+  border: 1px solid var(--grey);
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+@media (max-width: 768px) {
+  .footer-wrapper {
+    padding: 0 5%;
+  }
+
+  .copyright-footer {
+    font-size: 12px;
+  }
+
+  .footer-title {
     font-size: 16px;
-}
+  }
 
-.footer-title{
-    font-weight: 600;
-    font-size: 20px;
-}
-
-.footer-links li{
-    margin-top: 20px;
-}
-
-.aboutcompany-footer{
-    width: 280px;
-}
-
-.payment-container img{
-    margin-right: 5px;
-}
-
-.footer-desc{
-    font-weight: 400;
+  .footer-links li a,
+  .footer-links li span {
     font-size: 14px;
+  }
+
+  .subscribe-input::placeholder {
+    font-size: 14px;
+  }
+
+  .subscribe-btn {
+    font-size: 14px;
+    padding: 11px 20px;
+  }
 }
-
-.appstore{
-    height: 27px;
-    width: 77px;
-}
-
-.googleplay{
-    width: 93px;
-    height: 27px;
-}
-
-.visa{
-    width: 59px;
-    height: 21px;
-}
-
-.mastercard{
-    width: 33px;
-    height: 19px;
-}
-
-.fonepay{
-    width: 66px;
-    height: 20px;
-}
-
-.subscribe-input{
-    width: 280px;
-    padding: 10px 10px;
-    border-radius: 5px;
-    border: none;
-    padding-left: 20px;
-    /* z-index: -1; */
-}
-
-.subscribe-btn{
-    top: 0;
-    right: 0;
-    padding: 10px 20px;
-    background-color:var(--black);
-    color: white;
-    border: 1px solid var(--grey);
-    border-top-right-radius: 5px;
-    border-bottom-right-radius: 5px;
-}
-
-@media (max-width:768px) {
-    .footer-wrapper{
-        padding: 0 5%;
-    }
-
-    .copyright-footer{
-        font-size: 12px;
-    }
-
-    .footer-title{
-        font-size: 16px;
-    }
-
-    .footer-links li a, .footer-links li span{
-        font-size: 14px;
-    }
-
-    .subscribe-input::placeholder{
-        font-size: 14px;
-    }
-
-    .subscribe-btn{
-        font-size: 14px; 
-        padding: 11px 20px;
-    }
-}
-

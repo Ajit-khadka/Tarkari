@@ -1,6 +1,6 @@
-<article class="product-container d-flex flex-column justify-content-center">
+<article class="products-container d-flex flex-column justify-content-center">
     <div class="d-flex justify-content-center">
-        <img class="veg-image" style="width:200px" src="{{ asset('images/cauli.png') }}" alt="vegetable Image" />
+        <img class="product-image" src="{{ asset('images/cauli.png') }}" alt="vegetable Image" />
     </div>
     <div class="veg-desc">
         <div><span class="product-category">Vegetable</span><br>
@@ -39,9 +39,9 @@
                     </svg>
                 </span>
             </div>
-            <p class="product-price mt-2">Rs. 68/kg</p>
+            <p class="products-price mt-2">Rs. 68/kg</p>
             <a href="{{ route('productInfo') }}">
-                <button class="popularproduct-btn py-2 text-uppercase button">
+                <button class="popularproducts-btn py-2 text-uppercase button">
                     shop
                     now<span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
                             style="fill: rgb(255, 255, 255);transform: ;msFilter:;">
@@ -54,9 +54,9 @@
         </div>
     </div>
 </article>
-<article class="product-container d-flex flex-column justify-content-center">
+<article class="products-container d-flex flex-column justify-content-center">
     <div class="d-flex justify-content-center">
-        <img class="veg-image" style="width:240px;" src="{{ asset('images/apple.png') }}" alt="vegetable Image" />
+        <img class="product-image" src="{{ asset('images/apple.png') }}" alt="vegetable Image" />
     </div>
     <div class="veg-desc">
         <div><span class="product-category">Fruits</span><br>
@@ -95,9 +95,9 @@
                     </svg>
                 </span>
             </div>
-            <p class="product-price mt-2">Rs. 120/kg</p>
+            <p class="products-price mt-2">Rs. 120/kg</p>
             <a href="{{ route('productInfo') }}">
-                <button class="popularproduct-btn py-2 text-uppercase button">
+                <button class="popularproducts-btn py-2 text-uppercase button">
                     shop
                     now<span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
                             style="fill: rgb(255, 255, 255);transform: ;msFilter:;">
@@ -111,9 +111,9 @@
         </div>
     </div>
 </article>
-<article class="product-container d-flex flex-column justify-content-center">
+<article class="products-container d-flex flex-column justify-content-center">
     <div class="d-flex justify-content-center">
-        <img class="veg-image" src="{{ asset('images/potato.png') }}" alt="vegetable Image" />
+        <img class="product-image" src="{{ asset('images/potato.png') }}" alt="vegetable Image" />
     </div>
     <div class="veg-desc">
         <div><span class="product-category">Vegetable</span><br>
@@ -152,9 +152,9 @@
                     </svg>
                 </span>
             </div>
-            <p class="product-price mt-2">Rs.30/kg</p>
+            <p class="products-price mt-2">Rs.30/kg</p>
             <a href="{{ route('productInfo') }}">
-                <button class="popularproduct-btn py-2 text-uppercase button">
+                <button class="popularproducts-btn py-2 text-uppercase button">
                     shop
                     now<span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
                             viewBox="0 0 24 24" style="fill: rgb(255, 255, 255);transform: ;msFilter:;">

@@ -42,7 +42,7 @@
                     </svg>
                     <div class="location-container ms-2">
                         <p class="contact-title">Visit our Office</p>
-                        <p class="location-title">Suryabinayak-1, Bhaktapur</p>
+                        <p class="location-title">Suryabinayak-5, Bhaktapur</p>
                     </div>
                 </div>
                 <div class="contactdetails-card">
@@ -54,7 +54,7 @@
                     </svg>
                     <div class="location-container ms-2">
                         <p class="contact-title">Mail us at</p>
-                        <p class="location-title">contact@kharpantrade.com
+                        <p class="location-title">contact@khadkatrade.com
                         </p>
                     </div>
                 </div>
@@ -69,7 +69,7 @@
                     </svg>
                     <div class="location-container ms-2">
                         <p class="contact-title">Call us on</p>
-                        <p class="location-title">01-6631640, +977 9841902328, 9801166566</p>
+                        <p class="location-title">01-4444444, +977 9844444444, 9844444444</p>
                     </div>
                 </div>
                 <div class="contactdetails-card">
@@ -133,11 +133,11 @@
         <article class="forminput-container">
             <form class="" action="" method="">
                 <div class="forminput-box d-flex ">
-                    <input class="contactform-input" type="text" placeholder="Name" id="formName" />
-                    <input class="contactform-input" type="text" placeholder="Email" id="formEmail" />
+                    <input class="contactform-input" type="text" placeholder="First Name" id="formFirstName" />
+                    <input class="contactform-input" type="text" placeholder="Last Name" id="formLastName" />
                 </div>
-                <div class="forminput-box d-flex mt-4">
-                    <input class="contactform-input" type="text" placeholder="Phone" id="formPhone" />
+                <div class="forminput-emailbox d-flex mt-4">
+                    <input class="contactform-input" type="email" placeholder="Email" id="formEmail" />
                     <input class="contactform-input" type="text" placeholder="Subject" id="formSubject" />
                 </div>
                 <textarea class="contactform-msg mt-4" type="textfield" placeholder="Message" id="formMessage"></textarea>

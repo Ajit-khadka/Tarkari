@@ -11,9 +11,11 @@
                 suppliers who share our vision of best quality, as well as our insistence on operationg a short supply
                 chain. A brand new automatic ozone wash equipments and storage facility validate us for safest, fastest
                 and freshest delivery.</p>
-            <p class="welcome-desc">Like other commodities, fruits and vegeatbles have different qualities. We work with
+            <p class="welcome-desc welcome-readmoredesc">Like other commodities, fruits and vegeatbles have different qualities. We work with
                 farmers in Bhaktapur to grow local fresh products that meet your quality expectation.</p>
-            <button class="readmore mt-2 button">Read more...</button>
+            {{-- <button class="readmore mt-2 button">Read more...</button> --}}
+            <button class="ad-btn py-2 mt-2 d-flex justify-content-center align-items-center button">Read
+                more...</button>
         </div>
         <figure class="mt-5 welcome-collection remove-scroll d-flex justify-content-between ">
 

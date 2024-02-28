@@ -156,9 +156,64 @@
   }
 }
 
-@media (max-width: 426px) {
+@media (max-width: 875px) {
+  .service-card {
+    width: 44vw;
+    height: 350px;
+    padding: 0 20px;
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 725px) {
+  .service-title {
+    font-weight: 500;
+    font-size: 18px;
+  }
+
+  .service-desc {
+    font-weight: 400;
+    font-size: 14px;
+    text-align: justify;
+  }
+
+  .service-img {
+    height: 60px;
+    width: 60px;
+  }
+
+  .service-readmore {
+    font-size: 14px;
+  }
+
+  .service-card {
+    height: 290px;
+    padding: 0 20px;
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 600px) {
+  .service-card {
+    height: 320px;
+    width: 290px;
+    padding: 0 20px;
+    margin-top: 40px;
+  }
+
+  .aboutUsService-container {
+    flex-wrap: wrap;
+    column-gap: 4vw;
+  }
+}
+
+@media (max-width: 480px) {
   .service-topic {
     font-size: 28px;
+  }
+
+  .service-card {
+    height: 320px;
   }
 
   .team-btn {
@@ -174,22 +229,12 @@
     justify-content: center;
   }
 
-  .service-card {
-    height: 400px;
-  }
-
   .aboutus-team {
     justify-content: center;
     gap: 20px;
   }
 
   .team-title {
-    font-size: 28px;
-  }
-}
-
-@media (max-width: 376px) {
-  .service-card {
-    padding: 0 20px;
+    font-size: 24px;
   }
 }

@@ -1,7 +1,7 @@
 .banner-container{
     height: 60vh;   
     background-color: var(--light-green); 
-    margin-top: 50px;
+    margin-top: 25px;
 }
 
 .banner-title{

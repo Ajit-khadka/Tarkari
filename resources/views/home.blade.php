@@ -22,9 +22,12 @@
 
     @include('components.advertise')
     @include('components.welcomeTarkari')
-    @include('components.banner')
 
-    <main class="popularproducts-wrapper all-padding">
+    <div class="homebanner-container">
+        @include('components.banner')
+    </div>
+
+    <main class="popularproducts-wrapper all-padding mb-3">
         <section class="popularproducts-header d-flex justify-content-between mt-4">
             <p class="popularproducts-title">Featured Products</p>
             <div class="d-flex align-items-center">

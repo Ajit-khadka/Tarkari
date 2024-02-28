@@ -153,6 +153,12 @@ body {
   right: 150px;
 }
 
+/* banner */
+
+.homebanner-container {
+  margin-top: 50px;
+}
+
 /* @media (min-width: 1600px) {
   .all-padding {
     padding: 0 20vw;
@@ -252,7 +258,7 @@ body {
 @media (max-width: 429px) {
   /* newsletter */
   .newsletter-wrapper {
-    height: 40vh;
+    height: 35vh;
   }
 
   .newsletter-title {
@@ -309,6 +315,12 @@ body {
 
   .testimonials-wrapper {
     padding: 10% 5%;
+  }
+
+  /* banner */
+
+  .homebanner-container {
+    margin-top: 0px;
   }
 }
 

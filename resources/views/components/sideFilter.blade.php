@@ -21,13 +21,15 @@
                 </div>
                 <div class="form_control">
                     <div class="form_control_container">
-                        <div class="form_control_container__time">From <span style="color:#08bc3f">Rs.</span>
+                        <div class="form_control_container__time" style="font-size:14px;">From <span
+                                style="color:#08bc3f">Rs.</span>
                         </div>
                         <input class="form_control_container__time__input" type="number" id="fromInput" readonly
                             value="10" min="0" max="2000" />
                     </div>
                     <div class="form_control_container">
-                        <div class="form_control_container__time">To <span style="color:#08bc3f">Rs.</span>
+                        <div class="form_control_container__time" style="font-size:14px;">To <span
+                                style="color:#08bc3f">Rs.</span>
                         </div>
                         <input class="form_control_container__time__input" type="number" id="toInput" readonly
                             value="2000" min="0" max="2000" />

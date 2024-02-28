@@ -1,9 +1,8 @@
-<section
-    class="homeSlider-container all-padding d-flex justify-content-between align-items-center position-relative zindex">
+<section class="homeSlider-container d-flex justify-content-between align-items-center position-relative zindex">
 
     <div id="owl-homeslider" class="owl-carousel owl-theme mt-5">
         <div class="item" style="width: 100%">
-            <main class="home-slider position-relative">
+            <main class="home-slider position-relative all-padding">
                 <article class="slider-container d-flex align-items-center justify-content-between">
                     <div class="title-container">
                         <p class="slider-title">Organic <span class=""><br class="break">Fresh Vegetables</span>
@@ -27,7 +26,7 @@
             </main>
         </div>
         <div class="item" style="width: 100%">
-            <main class="home-slider position-relative">
+            <main class="home-slider position-relative all-padding">
                 <article class="slider-container d-flex align-items-center justify-content-between">
                     <div class="title-container">
                         <p class="slider-title">Organic <span class=""><br class="break">Fresh Vegetables</span>
@@ -51,7 +50,7 @@
             </main>
         </div>
         <div class="item" style="width: 100%">
-            <main class="home-slider position-relative">
+            <main class="home-slider position-relative all-padding">
                 <article class="slider-container d-flex align-items-center justify-content-between">
                     <div class="title-container">
                         <p class="slider-title">Organic <span class=""><br class="break">Fresh Vegetables</span>

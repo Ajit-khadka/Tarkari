@@ -33,45 +33,53 @@
                                 <path
                                     d="M12 22s8.029-5.56 8-12c0-4.411-3.589-8-8-8S4 5.589 4 9.995C3.971 16.44 11.696 21.784 12 22zM8 9h3V6h2v3h3v2h-3v3h-2v-3H8V9z">
                                 </path>
-                            </svg></span><span>Suryabinayak-1, Bhaktapur</span></li>
+                            </svg></span><span>Suryabinayak-5, Bhaktapur</span></li>
                     <li class="d-flex"><span class="me-2"><svg xmlns="http://www.w3.org/2000/svg" width="24"
                                 height="24" viewBox="0 0 24 24"
                                 style="fill: rgb(255, 255, 255);transform: ;msFilter:;">
                                 <path
                                     d="M20 4H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2zm0 4.7-8 5.334L4 8.7V6.297l8 5.333 8-5.333V8.7z">
                                 </path>
-                            </svg></span><span>contact@kharpantrade.com</span></li>
+                            </svg></span><span>contact@khadkatrade.com</span></li>
                     <li><span class="me-2"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                 viewBox="0 0 24 24" style="fill: rgb(255, 255, 255);transform: ;msFilter:;">
                                 <path
                                     d="m20.487 17.14-4.065-3.696a1.001 1.001 0 0 0-1.391.043l-2.393 2.461c-.576-.11-1.734-.471-2.926-1.66-1.192-1.193-1.553-2.354-1.66-2.926l2.459-2.394a1 1 0 0 0 .043-1.391L6.859 3.513a1 1 0 0 0-1.391-.087l-2.17 1.861a1 1 0 0 0-.29.649c-.015.25-.301 6.172 4.291 10.766C11.305 20.707 16.323 21 17.705 21c.202 0 .326-.006.359-.008a.992.992 0 0 0 .648-.291l1.86-2.171a.997.997 0 0 0-.085-1.39z">
                                 </path>
-                            </svg></span><span>01 6631640, +977 9841902328</span><br><span style="margin-left:30px">+977
-                            9801166566 </span></li>
+                            </svg></span><span>01 4444444, +977 9844444444</span><br><span style="margin-left:30px">+977
+                            9844444444 </span></li>
                 </ul>
             </div>
             <div class="app">
                 <span class="footer-title ">Install Our App</span>
                 <figure class="mt-2">
-                    <img class="appstore" src="{{ asset('images/appleStore.png') }}" alt="appStore" />
-                    <img class="googleplay" src="{{ asset('images/googleplay.png') }}" alt="googlePlay" />
+                    <a href="#" class="footer-sociallink"><img class="appstore"
+                            src="{{ asset('images/appleStore.png') }}" alt="appStore" /></a>
+                    <a href="#" class="footer-sociallink"><img class="googleplay"
+                            src="{{ asset('images/googleplay.png') }}" alt="googlePlay" /></a>
                 </figure>
             </div>
         </section>
         <section class="">
             <div>
                 <p class="footer-title">Subscribe</p>
-                <div class="position-relative">
+                <form class="position-relative">
                     <input placeholder="Email" class="subscribe-input" type="text" name="" id="subscribe">
                     <button class="subscribe-btn position-absolute button">Subscribe</button>
-                </div>
+                </form>
             </div>
             <div class="onlinepay mt-4">
                 <p class="footer-title">Payments</p>
                 <figure class="payment-container">
-                    <img class="visa" src="{{ asset('images/visa.png') }}" alt="visa" />
-                    <img class="mastercard" src="{{ asset('images/mastercard.png') }}" alt="mastercard" />
-                    <img class="fonepay" src="{{ asset('images/fonepay.png') }}" alt="fonepay" />
+                    <a href="#" class="footer-sociallink me-1">
+                        <img class="visa" src="{{ asset('images/visa.png') }}" alt="visa" />
+                    </a>
+                    <a href="#" class="footer-sociallink me-1">
+                        <img class="mastercard" src="{{ asset('images/mastercard.png') }}" alt="mastercard" />
+                    </a>
+                    <a href="#" class="footer-sociallink me-1">
+                        <img class="fonepay" src="{{ asset('images/fonepay.png') }}" alt="fonepay" />
+                    </a>
                 </figure>
             </div>
             <div class="social-link mt-4">

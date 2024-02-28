@@ -124,6 +124,14 @@
   }
 }
 
+@media (max-width: 465px) {
+
+  .welcome-readmoredesc {
+    display: none;
+  }
+
+}
+
 @media (max-width: 376px) {
   .welcomeimg-container {
     padding: 0% 20%;

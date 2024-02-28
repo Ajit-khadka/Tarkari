@@ -18,7 +18,6 @@ header {
   font-size: 14px;
 }
 
-
 .short-link {
   border-bottom: 1px solid var(--underline);
   height: 5vh;
@@ -32,7 +31,7 @@ header {
   color: var(--dark-green);
 }
 
-.header-logo a{
+.header-logo a {
   color: var(--dark-green);
   text-decoration: none;
 }
@@ -97,24 +96,24 @@ header {
   width: 100%;
 }
 
-.search-bar{
+.search-bar {
   border: 1px solid var(--underline);
   border-radius: 5px;
   font-size: 14px;
   font-size: var(--regular-text);
 }
 
-.sidenavsearch-bar{
-    border: 1px solid white;
-    border-radius: 5px;
-    font-size: 14px;
-    font-size: var(--regular-text);
-    background: var(--dark-green);
-    color: white;
+.sidenavsearch-bar {
+  border: 1px solid white;
+  border-radius: 5px;
+  font-size: 14px;
+  font-size: var(--regular-text);
+  background: var(--dark-green);
+  color: white;
 }
 
-.sidenavsearch-bar::placeholder{
-    color: white;
+.sidenavsearch-bar::placeholder {
+  color: white;
 }
 
 .sidenavsearch-bar,
@@ -211,29 +210,35 @@ header {
   margin-top: 20px;
 }
 
-
-.dropdown-sidenav{
+.dropdown-sidenav {
   border: none;
-  color: white  ;
+  color: white;
   background: var(--dark-green);
   background-color: var(--dark-green);
 }
 
-.dropdownsidenav-container{
+.dropdownsidenav-container {
   background: var(--dark-green);
   background-color: var(--dark-green);
   font-size: 16px;
-  color: white  ;
+  color: white;
   border: none;
 }
 
-.sidenavdrop-container{
-  transition-duration:  0.3s;
+.sidenavdrop-container {
+  transition-duration: 0.3s;
 }
 
-.sidenavdrop-body{
+.sidenavdrop-body {
   cursor: pointer;
   width: 100%;
+}
+
+/* category drop down */
+
+.header-dropdown:hover {
+  color: var(--dark-green);
+  /* transition-duration: 0.2s; */
 }
 
 /* 
