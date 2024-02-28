@@ -60,7 +60,7 @@
   width: 40px;
   border: none;
   background-color: #f2f3f4;
-  bottom: 180px;
+  bottom: 150px;
   z-index: 1;
 }
 
@@ -125,11 +125,9 @@
 }
 
 @media (max-width: 465px) {
-
   .welcome-readmoredesc {
     display: none;
   }
-
 }
 
 @media (max-width: 376px) {
