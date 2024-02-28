@@ -134,7 +134,7 @@
   }
 }
 
-@media (max-width: 429px) {
+@media (max-width: 431px) {
   .popularproduct-btn {
     width: 250px;
   }
@@ -152,9 +152,21 @@
   }
 }
 
+@media (max-width: 391px) {
+  .product-container {
+    width: 280px;
+  }
+}
+
 @media (max-width: 384px) {
   .popularproduct-wrapper {
-    padding: 0 5vw;
+    padding: 0 8vw;
+  }
+}
+
+@media (max-width: 361px) {
+  .popularproduct-wrapper {
+    padding: 0 6vw;
   }
 }
 

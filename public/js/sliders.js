@@ -87,11 +87,11 @@ $("#owl-popularproduct, #owl-featureproduct").owlCarousel({
     },
     600: {
       items: 2,
-      margin: 60,
+      margin: 105,
     },
     1000: {
       items: 4,
-      margin: 300,
+      margin: 310,
     },
     1025: {
       items: 3,
@@ -116,7 +116,7 @@ $(document).ready(function () {
     '<button class="testbtn-right position-absolute d-flex justify-content-center align-items-center rounded-circle"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" style="fill: #08BC3F;transform: ;msFilter:;"><path d="m11.293 17.293 1.414 1.414L19.414 12l-6.707-6.707-1.414 1.414L15.586 11H6v2h9.586z"></path></svg></button>';
 
   sync1.owlCarousel({
-    loop: true,
+    // loop: true,
     margin: 0,
     dots: false,
     nav: true,
@@ -136,11 +136,6 @@ $(document).ready(function () {
   });
 
   //testimonials circle
-
-  //      const prevtestcircle =
-  //      '<button class="testbtn-left position-absolute d-flex justify-content-center align-items-center rounded-circle"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" style="fill: #08BC3F;transform: ;msFilter:;"><path d="M12.707 17.293 8.414 13H18v-2H8.414l4.293-4.293-1.414-1.414L4.586 12l6.707 6.707z"></path></svg></button>'
-  //  const nexttestcircle =
-  //      '<button class="testbtn-right position-absolute d-flex justify-content-center align-items-center rounded-circle"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" style="fill: #08BC3F;transform: ;msFilter:;"><path d="m11.293 17.293 1.414 1.414L19.414 12l-6.707-6.707-1.414 1.414L15.586 11H6v2h9.586z"></path></svg></button>'
 
   sync2.owlCarousel({
     loop: true,
@@ -186,6 +181,8 @@ $(document).ready(function () {
 
 //product info
 
+//product image
+
 $(document).ready(function () {
   let productImage = $("#owl-productImage");
   let productImageSlider = $("#owl-productInfo");
@@ -198,6 +195,7 @@ $(document).ready(function () {
 
   productImageSlider.owlCarousel({
     loop: true,
+    // center: true,
     margin: 30,
     dots: false,
     nav: true,
@@ -220,8 +218,11 @@ $(document).ready(function () {
     },
   });
 
+  // product image slider
+
   productImage.owlCarousel({
     loop: true,
+    // center: true,
     margin: 10,
     nav: false,
     dots: false,

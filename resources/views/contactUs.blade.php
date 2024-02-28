@@ -131,7 +131,7 @@
         <p class="contactdetails-title">Drop us a Line</p>
         <p class="contactform-desc">Your email address will not be published. Required fields are marked*</p>
         <article class="forminput-container">
-            <div class="">
+            <form class="" action="" method="">
                 <div class="forminput-box d-flex ">
                     <input class="contactform-input" type="text" placeholder="Name" id="formName" />
                     <input class="contactform-input" type="text" placeholder="Email" id="formEmail" />
@@ -143,7 +143,7 @@
                 <textarea class="contactform-msg mt-4" type="textfield" placeholder="Message" id="formMessage"></textarea>
                 <br>
                 <button class="button contactform-btn mt-4">Send Message</button>
-            </div>
+            </form>
             <figure>
                 <img class="contactform-img" src="{{ asset('images/contactform.png') }}" alt="using mobile phone">
             </figure>

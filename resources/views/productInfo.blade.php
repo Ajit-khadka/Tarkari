@@ -49,18 +49,22 @@
                             <div class="item productimage-item">
                                 <img class="productInfo-bigImage" src="{{ asset('images/home-leaf.png') }}"
                                     alt="product Image" />
+                                {{-- 1 --}}
                             </div>
                             <div class="item productimage-item ">
                                 <img class="productInfo-bigImage" src="{{ asset('images/home-leaf.png') }}"
                                     alt="product Image" />
+                                {{-- 2 --}}
                             </div>
                             <div class="item productimage-item ">
                                 <img class="productInfo-bigImage" src="{{ asset('images/home-leaf.png') }}"
                                     alt="product Image" />
+                                {{-- 3 --}}
                             </div>
                             <div class="item productimage-item ">
                                 <img class="productInfo-bigImage" src="{{ asset('images/home-leaf.png') }}"
                                     alt="product Image" />
+                                {{-- 4 --}}
                             </div>
 
                         </div>
@@ -69,19 +73,19 @@
                     <div id="owl-productInfo" class="owl-carousel owl-theme">
                         <div class="item productInfo-sliderContainer">
                             <img class="productInfo-sliderImage" src="{{ asset('images/home-leaf.png') }}" alt="products" />
-
+                            {{-- 1 --}}
                         </div>
                         <div class="item productInfo-sliderContainer">
                             <img class="productInfo-sliderImage" src="{{ asset('images/home-leaf.png') }}" alt="products" />
-
+                            {{-- 2 --}}
                         </div>
                         <div class="item productInfo-sliderContainer">
                             <img class="productInfo-sliderImage" src="{{ asset('images/home-leaf.png') }}" alt="products" />
-
+                            {{-- 3 --}}
                         </div>
                         <div class="item productInfo-sliderContainer">
                             <img class="productInfo-sliderImage" src="{{ asset('images/home-leaf.png') }}" alt="products" />
-
+                            {{-- 4 --}}
                         </div>
                     </div>
                 </div>
