@@ -76,9 +76,9 @@
         function closeNav() {
             document.querySelector('.sidenav').classList.remove('sidenav-intro');
         }
-
-
+        
         // custom arrow input product info page
+        
         $('.btn-minus').on('click', function(e) {
             var input = $(e.target).closest('.form-type-number').find('input');
             input[0]['stepDown']();
